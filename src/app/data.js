@@ -18,18 +18,25 @@ Websites:
 
 export const projectsData = [
   {
+    id: 0,
+    name: "HSC ICT Hero Batch 25",
+    description: "hsc 2024 batch",
+    date: "mmmc 2024",
+    demoLink: "https://chat.whatsapp.com/JIeVSzob3r30ExqRAENuY9",
+  },
+  {
     id: 1,
-    name: "EcoTracker",
-    description: "Track your carbon footprint",
+    name: "For HSC Student projects",
+    description: "html css",
     date: "2022-08-15",
-    demoLink: "https://ecotracker.example.com",
+    demoLink: "https://hscprojects23.netlify.app/",
   },
   {
     id: 2,
-    name: "ArtGallery Online",
-    description: "Digital art showcase platform",
+    name: " Online Resume site by",
+    description: "html css js",
     date: "2022-06-20",
-    demoLink: "https://artgalleryonline.example.com",
+    demoLink: "https://mustafaofficial.netlify.app/",
   },
   {
     id: 3,
@@ -118,6 +125,13 @@ export const BtnList = [
     icon: "resume",
     newTab: true,
   },
+  {
+    label: "whtsapp",
+    link: "https://api.whatsapp.com/send/?phone=%2B8801840643946&text&type=phone_number&app_absent=0",
+    icon: "whatsapp",
+    newTab: true,
+  },
+ 
 ];
 
 

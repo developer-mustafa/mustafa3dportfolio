@@ -7,8 +7,8 @@ import {
   Phone,
   Twitter,
   Facebook,
+  MessageCircleMore,
   User,
-  
 } from "lucide-react";
 import Link from "next/link";
 import React from "react";
@@ -26,6 +26,9 @@ const getIcon = (icon) => {
       return <Palette className="w-full h-auto" strokeWidth={1.5} />;
     case "contact":
       return <Phone className="w-full h-auto" strokeWidth={1.5} />;
+    case "whatsapp":
+      return <MessageCircleMore className="w-full h-auto" strokeWidth={1.5} />;
+
     case "github":
       return <Github className="w-full h-auto" strokeWidth={1.5} />;
     case "linkedin":
